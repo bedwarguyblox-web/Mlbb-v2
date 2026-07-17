@@ -1,0 +1,42 @@
+name: Build APK
+
+# Builds a debug APK on GitHub's servers so you don't need Android Studio or
+# an Android SDK on your own machine. Trigger it by pushing to main, or
+# manually from the Actions tab (the "Run workflow" button).
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install required SDK platform + build-tools
+        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build debug APK
+        # No gradlew wrapper jar is checked into this repo, so we use the
+        # Gradle version the setup-gradle step just put on PATH directly.
+        run: gradle assembleDebug --no-daemon
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: MLBBCounterPick-debug-apk
+          path: app/build/outputs/apk/debug/*.apk

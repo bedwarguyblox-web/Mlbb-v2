@@ -1,0 +1,1424 @@
+{
+  "_comment": "Seed dataset generated from the official MLBB hero roster (names/roles cross-checked against mobilelegends.com and the MLBB Wiki, see /DATA_SOURCE_PROMPT.md for how this was built and how to refresh it). Hero IDs are grouped by primary role in blocks of 100 (Tank 100s, Fighter 200s, Assassin 300s, Mage 400s, Marksman 500s, Support 600s) with two spare digits per block reserved for that role's next new hero release, so refreshing the roster on a new patch will not renumber existing heroes. winRateDelta/winRate values that ARE present are illustrative placeholders reflecting well-known meta relationships, NOT live scraped stats -- replace them per-patch with real numbers from your own stats source (post-match stats, a tracker site export, etc). Every hero without matchup/synergy/winrate rows still works in recommendations, it just falls back to a neutral 0.50 baseline until you add rows for it.",
+  "heroes": [
+    {
+      "id": 101,
+      "name": "Tigreal",
+      "iconKey": "tigreal",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Franco",
+      "iconKey": "franco",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Minotaur",
+      "iconKey": "minotaur",
+      "roles": [
+        "TANK",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Akai",
+      "iconKey": "akai",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Johnson",
+      "iconKey": "johnson",
+      "roles": [
+        "TANK",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Gatotkaca",
+      "iconKey": "gatotkaca",
+      "roles": [
+        "TANK",
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Grock",
+      "iconKey": "grock",
+      "roles": [
+        "TANK",
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Uranus",
+      "iconKey": "uranus",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Belerick",
+      "iconKey": "belerick",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Khufra",
+      "iconKey": "khufra",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Baxia",
+      "iconKey": "baxia",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Atlas",
+      "iconKey": "atlas",
+      "roles": [
+        "TANK",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Barats",
+      "iconKey": "barats",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Gloo",
+      "iconKey": "gloo",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Edith",
+      "iconKey": "edith",
+      "roles": [
+        "TANK",
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Fredrinn",
+      "iconKey": "fredrinn",
+      "roles": [
+        "TANK",
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Chip",
+      "iconKey": "chip",
+      "roles": [
+        "TANK",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Hylos",
+      "iconKey": "hylos",
+      "roles": [
+        "TANK"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Alice",
+      "iconKey": "alice",
+      "roles": [
+        "TANK",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Ruby",
+      "iconKey": "ruby",
+      "roles": [
+        "TANK",
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "Balmond",
+      "iconKey": "balmond",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Chou",
+      "iconKey": "chou",
+      "roles": [
+        "FIGHTER",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Paquito",
+      "iconKey": "paquito",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Yu Zhong",
+      "iconKey": "yu_zhong",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Aldous",
+      "iconKey": "aldous",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Freya",
+      "iconKey": "freya",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "X.Borg",
+      "iconKey": "x_borg",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "Guinevere",
+      "iconKey": "guinevere",
+      "roles": [
+        "FIGHTER",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "Martis",
+      "iconKey": "martis",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "Arlott",
+      "iconKey": "arlott",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Zilong",
+      "iconKey": "zilong",
+      "roles": [
+        "FIGHTER",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "Sun",
+      "iconKey": "sun",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 213,
+      "name": "Alpha",
+      "iconKey": "alpha",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 214,
+      "name": "Argus",
+      "iconKey": "argus",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "Lapu-Lapu",
+      "iconKey": "lapu_lapu",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "Jawhead",
+      "iconKey": "jawhead",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "Terizla",
+      "iconKey": "terizla",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "Khaleed",
+      "iconKey": "khaleed",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Dyrroth",
+      "iconKey": "dyrroth",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "Silvanna",
+      "iconKey": "silvanna",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "Minsitthar",
+      "iconKey": "minsitthar",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "Thamuz",
+      "iconKey": "thamuz",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "Masha",
+      "iconKey": "masha",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "Leomord",
+      "iconKey": "leomord",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 225,
+      "name": "Roger",
+      "iconKey": "roger",
+      "roles": [
+        "FIGHTER",
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "Bane",
+      "iconKey": "bane",
+      "roles": [
+        "FIGHTER",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 227,
+      "name": "Hilda",
+      "iconKey": "hilda",
+      "roles": [
+        "FIGHTER",
+        "TANK"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "Phoveus",
+      "iconKey": "phoveus",
+      "roles": [
+        "FIGHTER",
+        "TANK"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "Aulus",
+      "iconKey": "aulus",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 230,
+      "name": "Yin",
+      "iconKey": "yin",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "Esmeralda",
+      "iconKey": "esmeralda",
+      "roles": [
+        "FIGHTER",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 232,
+      "name": "Julian",
+      "iconKey": "julian",
+      "roles": [
+        "FIGHTER",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "Cici",
+      "iconKey": "cici",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 234,
+      "name": "Lukas",
+      "iconKey": "lukas",
+      "roles": [
+        "FIGHTER",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Lancelot",
+      "iconKey": "lancelot",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Hayabusa",
+      "iconKey": "hayabusa",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Gusion",
+      "iconKey": "gusion",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Ling",
+      "iconKey": "ling",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Fanny",
+      "iconKey": "fanny",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Karina",
+      "iconKey": "karina",
+      "roles": [
+        "ASSASSIN",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Helcurt",
+      "iconKey": "helcurt",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Saber",
+      "iconKey": "saber",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Natalia",
+      "iconKey": "natalia",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 310,
+      "name": "Selena",
+      "iconKey": "selena",
+      "roles": [
+        "ASSASSIN",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Benedetta",
+      "iconKey": "benedetta",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Aamon",
+      "iconKey": "aamon",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Yi Sun-shin",
+      "iconKey": "yi_sun_shin",
+      "roles": [
+        "ASSASSIN",
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Harley",
+      "iconKey": "harley",
+      "roles": [
+        "ASSASSIN",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Joy",
+      "iconKey": "joy",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "Nolan",
+      "iconKey": "nolan",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Suyou",
+      "iconKey": "suyou",
+      "roles": [
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 401,
+      "name": "Kadita",
+      "iconKey": "kadita",
+      "roles": [
+        "MAGE",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Kagura",
+      "iconKey": "kagura",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Lunox",
+      "iconKey": "lunox",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 404,
+      "name": "Pharsa",
+      "iconKey": "pharsa",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 405,
+      "name": "Chang'e",
+      "iconKey": "change",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 406,
+      "name": "Valentina",
+      "iconKey": "valentina",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Xavier",
+      "iconKey": "xavier",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 408,
+      "name": "Cecilion",
+      "iconKey": "cecilion",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Nana",
+      "iconKey": "nana",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "Eudora",
+      "iconKey": "eudora",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 411,
+      "name": "Gord",
+      "iconKey": "gord",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "Aurora",
+      "iconKey": "aurora",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 413,
+      "name": "Vexana",
+      "iconKey": "vexana",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "Cyclops",
+      "iconKey": "cyclops",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "Odette",
+      "iconKey": "odette",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "Zhask",
+      "iconKey": "zhask",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "Valir",
+      "iconKey": "valir",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Vale",
+      "iconKey": "vale",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "Harith",
+      "iconKey": "harith",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "Lylia",
+      "iconKey": "lylia",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Luo Yi",
+      "iconKey": "luo_yi",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "Yve",
+      "iconKey": "yve",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "Faramis",
+      "iconKey": "faramis",
+      "roles": [
+        "MAGE",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Novaria",
+      "iconKey": "novaria",
+      "roles": [
+        "MAGE",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 425,
+      "name": "Zhuxin",
+      "iconKey": "zhuxin",
+      "roles": [
+        "MAGE",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 426,
+      "name": "Zetian",
+      "iconKey": "zetian",
+      "roles": [
+        "MAGE"
+      ]
+    },
+    {
+      "id": 427,
+      "name": "Obsidia",
+      "iconKey": "obsidia",
+      "roles": [
+        "MAGE",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Kimmy",
+      "iconKey": "kimmy",
+      "roles": [
+        "MARKSMAN",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Layla",
+      "iconKey": "layla",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Miya",
+      "iconKey": "miya",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Bruno",
+      "iconKey": "bruno",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Clint",
+      "iconKey": "clint",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Granger",
+      "iconKey": "granger",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 507,
+      "name": "Wanwan",
+      "iconKey": "wanwan",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 508,
+      "name": "Karrie",
+      "iconKey": "karrie",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 509,
+      "name": "Beatrix",
+      "iconKey": "beatrix",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 510,
+      "name": "Claude",
+      "iconKey": "claude",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 511,
+      "name": "Moskov",
+      "iconKey": "moskov",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 512,
+      "name": "Irithel",
+      "iconKey": "irithel",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 513,
+      "name": "Hanabi",
+      "iconKey": "hanabi",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 514,
+      "name": "Lesley",
+      "iconKey": "lesley",
+      "roles": [
+        "MARKSMAN",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 515,
+      "name": "Brody",
+      "iconKey": "brody",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 516,
+      "name": "Popol and Kupa",
+      "iconKey": "popol_kupa",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 517,
+      "name": "Natan",
+      "iconKey": "natan",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 518,
+      "name": "Melissa",
+      "iconKey": "melissa",
+      "roles": [
+        "MARKSMAN",
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 519,
+      "name": "Ixia",
+      "iconKey": "ixia",
+      "roles": [
+        "MARKSMAN"
+      ]
+    },
+    {
+      "id": 601,
+      "name": "Lolita",
+      "iconKey": "lolita",
+      "roles": [
+        "SUPPORT",
+        "TANK"
+      ]
+    },
+    {
+      "id": 602,
+      "name": "Estes",
+      "iconKey": "estes",
+      "roles": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 603,
+      "name": "Rafaela",
+      "iconKey": "rafaela",
+      "roles": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 604,
+      "name": "Angela",
+      "iconKey": "angela",
+      "roles": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 605,
+      "name": "Diggie",
+      "iconKey": "diggie",
+      "roles": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 606,
+      "name": "Mathilda",
+      "iconKey": "mathilda",
+      "roles": [
+        "SUPPORT",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 607,
+      "name": "Floryn",
+      "iconKey": "floryn",
+      "roles": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": 608,
+      "name": "Carmilla",
+      "iconKey": "carmilla",
+      "roles": [
+        "SUPPORT",
+        "MAGE"
+      ]
+    },
+    {
+      "id": 609,
+      "name": "Kaja",
+      "iconKey": "kaja",
+      "roles": [
+        "SUPPORT",
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 610,
+      "name": "Kalea",
+      "iconKey": "kalea",
+      "roles": [
+        "SUPPORT",
+        "FIGHTER"
+      ]
+    }
+  ],
+  "matchups": [
+    {
+      "heroId": 202,
+      "versusHeroId": 305,
+      "winRateDelta": 0.09
+    },
+    {
+      "heroId": 202,
+      "versusHeroId": 304,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 307,
+      "versusHeroId": 302,
+      "winRateDelta": 0.08
+    },
+    {
+      "heroId": 307,
+      "versusHeroId": 303,
+      "winRateDelta": 0.07
+    },
+    {
+      "heroId": 307,
+      "versusHeroId": 308,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 110,
+      "versusHeroId": 305,
+      "winRateDelta": 0.1
+    },
+    {
+      "heroId": 110,
+      "versusHeroId": 304,
+      "winRateDelta": 0.07
+    },
+    {
+      "heroId": 110,
+      "versusHeroId": 302,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 102,
+      "versusHeroId": 502,
+      "winRateDelta": 0.07
+    },
+    {
+      "heroId": 102,
+      "versusHeroId": 503,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 102,
+      "versusHeroId": 404,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 112,
+      "versusHeroId": 504,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 112,
+      "versusHeroId": 507,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 303,
+      "versusHeroId": 402,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 303,
+      "versusHeroId": 404,
+      "winRateDelta": 0.07
+    },
+    {
+      "heroId": 301,
+      "versusHeroId": 408,
+      "winRateDelta": 0.07
+    },
+    {
+      "heroId": 301,
+      "versusHeroId": 405,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 507,
+      "versusHeroId": 109,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 507,
+      "versusHeroId": 101,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 401,
+      "versusHeroId": 305,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 208,
+      "versusHeroId": 305,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 208,
+      "versusHeroId": 304,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 203,
+      "versusHeroId": 201,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 203,
+      "versusHeroId": 204,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 210,
+      "versusHeroId": 206,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 508,
+      "versusHeroId": 109,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 508,
+      "versusHeroId": 106,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 407,
+      "versusHeroId": 109,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 509,
+      "versusHeroId": 302,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 309,
+      "versusHeroId": 404,
+      "winRateDelta": 0.06
+    },
+    {
+      "heroId": 309,
+      "versusHeroId": 402,
+      "winRateDelta": 0.05
+    }
+  ],
+  "synergies": [
+    {
+      "heroId": 102,
+      "withHeroId": 504,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 101,
+      "withHeroId": 503,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 110,
+      "withHeroId": 305,
+      "winRateDelta": -0.03
+    },
+    {
+      "heroId": 603,
+      "withHeroId": 304,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 604,
+      "withHeroId": 206,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 604,
+      "withHeroId": 204,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 605,
+      "withHeroId": 305,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 605,
+      "withHeroId": 304,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 606,
+      "withHeroId": 303,
+      "winRateDelta": 0.05
+    },
+    {
+      "heroId": 606,
+      "withHeroId": 306,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 106,
+      "withHeroId": 506,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 112,
+      "withHeroId": 509,
+      "winRateDelta": 0.04
+    },
+    {
+      "heroId": 109,
+      "withHeroId": 404,
+      "winRateDelta": 0.03
+    },
+    {
+      "heroId": 602,
+      "withHeroId": 503,
+      "winRateDelta": 0.03
+    },
+    {
+      "heroId": 607,
+      "withHeroId": 508,
+      "winRateDelta": 0.04
+    }
+  ],
+  "rankWinRates": [
+    {
+      "heroId": 202,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.53
+    },
+    {
+      "heroId": 202,
+      "rank": "MYTHIC",
+      "winRate": 0.52
+    },
+    {
+      "heroId": 202,
+      "rank": "LEGEND",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 202,
+      "rank": "EPIC",
+      "winRate": 0.48
+    },
+    {
+      "heroId": 202,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 202,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.45
+    },
+    {
+      "heroId": 305,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 305,
+      "rank": "MYTHIC",
+      "winRate": 0.49
+    },
+    {
+      "heroId": 305,
+      "rank": "LEGEND",
+      "winRate": 0.46
+    },
+    {
+      "heroId": 305,
+      "rank": "EPIC",
+      "winRate": 0.43
+    },
+    {
+      "heroId": 305,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.41
+    },
+    {
+      "heroId": 305,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.39
+    },
+    {
+      "heroId": 507,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 507,
+      "rank": "MYTHIC",
+      "winRate": 0.48
+    },
+    {
+      "heroId": 507,
+      "rank": "LEGEND",
+      "winRate": 0.45
+    },
+    {
+      "heroId": 507,
+      "rank": "EPIC",
+      "winRate": 0.42
+    },
+    {
+      "heroId": 504,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.52
+    },
+    {
+      "heroId": 504,
+      "rank": "MYTHIC",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 504,
+      "rank": "LEGEND",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 504,
+      "rank": "EPIC",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 504,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 504,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 110,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.54
+    },
+    {
+      "heroId": 110,
+      "rank": "MYTHIC",
+      "winRate": 0.52
+    },
+    {
+      "heroId": 110,
+      "rank": "LEGEND",
+      "winRate": 0.5
+    },
+    {
+      "heroId": 110,
+      "rank": "EPIC",
+      "winRate": 0.49
+    }
+  ]
+}

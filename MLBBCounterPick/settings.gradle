@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "MLBBCounterPick"
+include ":app"
+// Import the official OpenCV Android SDK's "sdk/java" module here and name it ":opencv".
+// Download from https://opencv.org/releases/ (Android SDK), unzip, then:
+//   include ":opencv"
+//   project(":opencv").projectDir = new File("../OpenCV-android-sdk/sdk/java")
+// This is the standard, officially supported way to consume OpenCV on Android
+// (there is no reliable official Maven Central artifact).

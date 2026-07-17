@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "MLBBCounterPick"
+include ":app"
+include ":opencv"
+
+// ":opencv" currently points at /opencv, a small placeholder module (see
+// /opencv/README.md) so the project builds and runs immediately — Manual Draft
+// needs no computer vision at all, and Live Overlay works but won't detect
+// heroes until you swap this for the real thing:
+//   1. Download the OpenCV Android SDK from https://opencv.org/releases/
+//   2. Unzip it, then uncomment the line below and point it at the unzipped
+//      SDK's "sdk/java" folder instead of the placeholder.
+// project(":opencv").projectDir = new File("../OpenCV-android-sdk/sdk/java")
