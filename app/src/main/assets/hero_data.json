@@ -1053,6 +1053,32 @@
         "SUPPORT",
         "FIGHTER"
       ]
+    },
+    {
+      "id": 611,
+      "name": "Marcel",
+      "iconKey": "marcel",
+      "roles": [
+        "SUPPORT",
+        "TANK"
+      ]
+    },
+    {
+      "id": 612,
+      "name": "Sora",
+      "iconKey": "sora",
+      "roles": [
+        "FIGHTER",
+        "ASSASSIN"
+      ]
+    },
+    {
+      "id": 613,
+      "name": "Hirara",
+      "iconKey": "hirara",
+      "roles": [
+        "ASSASSIN"
+      ]
     }
   ],
   "matchups": [
@@ -6584,6 +6610,96 @@
       "heroId": 610,
       "rank": "MYTHICAL_HONOR_GLORY",
       "winRate": 0.506
+    },
+    {
+      "heroId": 611,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.535
+    },
+    {
+      "heroId": 611,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.528
+    },
+    {
+      "heroId": 611,
+      "rank": "EPIC",
+      "winRate": 0.521
+    },
+    {
+      "heroId": 611,
+      "rank": "LEGEND",
+      "winRate": 0.515
+    },
+    {
+      "heroId": 611,
+      "rank": "MYTHIC",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 611,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.505
+    },
+    {
+      "heroId": 612,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.528
+    },
+    {
+      "heroId": 612,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.523
+    },
+    {
+      "heroId": 612,
+      "rank": "EPIC",
+      "winRate": 0.519
+    },
+    {
+      "heroId": 612,
+      "rank": "LEGEND",
+      "winRate": 0.516
+    },
+    {
+      "heroId": 612,
+      "rank": "MYTHIC",
+      "winRate": 0.513
+    },
+    {
+      "heroId": 612,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 613,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.515
+    },
+    {
+      "heroId": 613,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 613,
+      "rank": "EPIC",
+      "winRate": 0.51
+    },
+    {
+      "heroId": 613,
+      "rank": "LEGEND",
+      "winRate": 0.508
+    },
+    {
+      "heroId": 613,
+      "rank": "MYTHIC",
+      "winRate": 0.505
+    },
+    {
+      "heroId": 613,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.502
     }
   ]
 }

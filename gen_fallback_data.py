@@ -1,5 +1,16 @@
 import json, hashlib
 
+# NOTE (2026-07-18): hero_data_orig.json used below predates several real heroes —
+# confirmed missing: Marcel (#132, Support/Tank, released Mar 2026), Sora (Fighter/
+# Assassin, released ~Jan 2026), Hirara (#133, Assassin, released Jun 2026 — the
+# current newest hero as of this note). Those three were patched directly into the
+# *compiled* app/src/main/assets/hero_data.json (roster entries + hand-estimated
+# rankWinRates only — no matchup/synergy data yet, so they sit at neutral 0.0 delta
+# until live API data covers them). Re-running this script regenerates hero_data.json
+# from hero_data_orig.json from scratch and will silently drop all three again unless
+# hero_data_orig.json is updated first to include them. Check for a newer roster
+# snapshot, or add them to hero_data_orig.json's `heroes` list before regenerating.
+
 d = json.load(open('hero_data_orig.json'))
 heroes = d['heroes']  # keep as-is, id/name/iconKey/roles untouched
 by_name = {h['name']: h for h in heroes}

@@ -31,6 +31,7 @@ import androidx.core.app.ActivityCompat
 import androidx.lifecycle.lifecycleScope
 import com.counterpick.mlbb.capture.ScreenCaptureService
 import com.counterpick.mlbb.data.DataFreshness
+import com.counterpick.mlbb.network.OpenMlbbClient
 import com.counterpick.mlbb.data.Hero
 import com.counterpick.mlbb.data.HeroRole
 import com.counterpick.mlbb.data.RankTier
@@ -637,6 +638,13 @@ class MainActivity : AppCompatActivity() {
                 text = "Checking connection…"
                 lifecycleScope.launch {
                     statsRepository?.refreshLive(manualRank, allyPicks, enemyPicks)
+                    if (statsRepository?.freshness != DataFreshness.LIVE) {
+                        Toast.makeText(
+                            this@MainActivity,
+                            OpenMlbbClient.lastDiagnostic,
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
                     // Re-render fully so the recommendation numbers pick up anything that
                     // just came back live, not just this label.
                     refreshRecommendations()
