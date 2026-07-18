@@ -10,12 +10,10 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+// Repositories for all modules are declared centrally in settings.gradle's
+// dependencyResolutionManagement block (with FAIL_ON_PROJECT_REPOS set), so an
+// `allprojects { repositories {...} } here would conflict with that and fail the
+// build — removed rather than re-added.
 
 task clean(type: Delete) {
     delete rootProject.buildDir
