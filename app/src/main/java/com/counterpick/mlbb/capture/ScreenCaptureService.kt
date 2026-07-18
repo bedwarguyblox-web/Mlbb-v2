@@ -122,6 +122,10 @@ class ScreenCaptureService : LifecycleService() {
                     val draft = scanner.scan(bitmap, rank)
                     bitmap.recycle()
                     if (draft.lockedAllyPicks().isNotEmpty() || draft.lockedEnemyPicks().isNotEmpty()) {
+                        // StatsRepository throttles this internally (TTL caches per rank / per
+                        // locked hero), so calling it on every ~1.2s poll is cheap once warm —
+                        // it only actually hits the network when something's gone stale.
+                        repo.refreshLive(rank, draft.allyPicks, draft.enemyPicks)
                         val recs = engine.recommend(draft)
                         withContext(Dispatchers.Main) { DraftEventBus.publish(recs) }
                     }

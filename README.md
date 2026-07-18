@@ -46,13 +46,18 @@ baseline win rate for the rank you select.
 - `vision/DraftScanner` — crops each configured ROI out of the captured frame and
   resolves it to a hero id via the matcher.
 - `engine/RecommendationEngine` — scores every unpicked/unbanned hero:
-  `baseWinRate(rank) + 1.4 * avgCounterDelta(vs enemies) + 0.8 * avgSynergyDelta(with allies) + roleNeedBonus`.
+  `baseWinRate(rank) + 1.4 * avgCounterDelta(vs enemies) + 0.8 * avgSynergyDelta(with allies) + roleNeedBonus - riskWeight * exploitationRisk`.
+  `recommendByRole()` groups the same scores by role for the "best pick by role" list;
+  `recommend()` (flat, used by the Live Overlay) is unchanged.
 - `engine/DraftEventBus` — in-process `StateFlow` connecting the capture service
   to the overlay (both run in the same process, so no AIDL/IPC needed).
 - `overlay/OverlayService` — draggable floating panel (`TYPE_APPLICATION_OVERLAY`)
   listing ranked picks with estimated win %.
-- `data/` — Room database (`heroes`, `matchups`, `synergies`, `rank_winrates`)
-  seeded from `assets/hero_data.json` on first launch.
+- `network/OpenMlbbClient` — fetches win rates / counters / synergies live from the
+  community OpenMLBB API at calculation time (see "Stats data" below).
+- `data/StatsRepository` — in-memory, TTL-cached live data + offline fallback; no
+  local database. `data/OfflineFallbackData` loads the roster/icon mapping and the
+  fallback matchup/synergy/winrate snapshot from `assets/hero_data.json`.
 
 ## Required setup before this builds/runs correctly
 
@@ -76,13 +81,18 @@ baseline win rate for the rank you select.
    rectangles for your device, using a draft-screen screenshot to eyeball the
    fractions.
 
-4. **Stats data.** `assets/hero_data.json` ships with the full 127-hero roster
-   (names/roles/ids) but only an illustrative matchup/synergy/winrate matrix, not
-   live scraped stats — see `DATA_SOURCE_PROMPT.md` for exactly how the roster
-   was built and a ready-to-reuse prompt for refreshing both the roster and the
-   stats each patch. Heroes without stats rows still work in Manual Draft and
-   Live Overlay alike, they just default to a neutral 0.50 baseline with no
-   counter/synergy data until you add rows.
+4. **Stats data.** Win rates, counters, and synergies are fetched live from the
+   community-run [OpenMLBB API](https://github.com/ridwaanhall/api-mobilelegends)
+   every time recommendations are computed — nothing to hand-maintain per patch
+   anymore. `assets/hero_data.json` now only supplies the 127-hero roster/icon
+   mapping (still hand-maintained, since `iconKey` points at bundled art) plus an
+   offline fallback snapshot used only when the live fetch fails. Before you ship:
+   the exact OpenMLBB endpoint paths/field names in `network/OpenMlbbClient.kt`
+   were inferred from that project's README/SDK, not a verified schema fetch
+   (its `openapi.json` is behind `robots.txt` for automated tools) — check them
+   against https://mlbb.rone.dev/api/docs and adjust the constants at the top of
+   that file if anything's off. See `DATA_SOURCE_PROMPT.md` for keeping the
+   roster and offline fallback current on the rare occasions you touch them.
 
 ## Build & run
 

@@ -30,6 +30,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.lifecycleScope
 import com.counterpick.mlbb.capture.ScreenCaptureService
+import com.counterpick.mlbb.data.DataFreshness
 import com.counterpick.mlbb.data.Hero
 import com.counterpick.mlbb.data.HeroRole
 import com.counterpick.mlbb.data.RankTier
@@ -323,7 +324,7 @@ class MainActivity : AppCompatActivity() {
 
         // Recommendations
         val recCard = sectionCard()
-        recCard.addView(sectionHeader("Best next pick"))
+        recCard.addView(sectionHeader("Best next pick by role"))
         recommendationList = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
         recCard.addView(recommendationList)
         container.addView(recCard)
@@ -552,8 +553,16 @@ class MainActivity : AppCompatActivity() {
             enemyPicks = enemyPicks.toList(),
             bannedHeroIds = bannedHeroIds.toSet()
         )
-        val recs = engine.recommend(draft, limit = 6)
-        renderRecommendations(recs)
+
+        // Score immediately from whatever's cached (live or offline fallback) so the UI
+        // never blocks on the network, then kick off a live refresh in the background and
+        // re-render if it changed anything. This is what makes "every calculation" live
+        // without every tap feeling laggy on a slow connection.
+        renderRecommendationsByRole(engine.recommendByRole(draft, perRole = 3), repo.freshness)
+        lifecycleScope.launch {
+            repo.refreshLive(manualRank, allyPicks, enemyPicks)
+            renderRecommendationsByRole(engine.recommendByRole(draft, perRole = 3), repo.freshness)
+        }
     }
 
     private fun renderPickRow(row: LinearLayout, picks: List<Int>, repo: StatsRepository) {
@@ -597,9 +606,47 @@ class MainActivity : AppCompatActivity() {
         return box
     }
 
-    private fun renderRecommendations(recs: List<HeroRecommendation>) {
+    private fun roleLabel(role: HeroRole): String = role.name.lowercase().replaceFirstChar { it.uppercase() }
+
+    private fun relativeTime(epochMs: Long): String {
+        val diffSec = (System.currentTimeMillis() - epochMs) / 1000
+        return when {
+            diffSec < 60 -> "just now"
+            diffSec < 3600 -> "${diffSec / 60}m ago"
+            diffSec < 86400 -> "${diffSec / 3600}h ago"
+            else -> "${diffSec / 86400}d ago"
+        }
+    }
+
+    private fun renderRecommendationsByRole(byRole: Map<HeroRole, List<HeroRecommendation>>, freshness: DataFreshness) {
         recommendationList.removeAllViews()
-        if (recs.isEmpty()) {
+
+        val lastLiveAt = statsRepository?.lastLiveFetchAt ?: 0L
+        val freshnessLabel = TextView(this).apply {
+            text = when {
+                freshness == DataFreshness.LIVE -> "● Live stats"
+                lastLiveAt > 0L -> "○ Offline fallback — last live ${relativeTime(lastLiveAt)} · tap to retry"
+                else -> "○ Offline fallback stats — tap to retry"
+            }
+            setTextColor(if (freshness == DataFreshness.LIVE) Color.parseColor("#4ADE80") else mutedText)
+            textSize = 10f
+            setPadding(0, 0, 0, dp(6))
+            isClickable = true
+            isFocusable = true
+            setOnClickListener {
+                text = "Checking connection…"
+                lifecycleScope.launch {
+                    statsRepository?.refreshLive(manualRank, allyPicks, enemyPicks)
+                    // Re-render fully so the recommendation numbers pick up anything that
+                    // just came back live, not just this label.
+                    refreshRecommendations()
+                }
+            }
+        }
+        recommendationList.addView(freshnessLabel)
+
+        val anyPicks = byRole.values.any { it.isNotEmpty() }
+        if (!anyPicks) {
             recommendationList.addView(TextView(this).apply {
                 text = "No heroes available — clear a slot or ban."
                 setTextColor(mutedText)
@@ -607,47 +654,65 @@ class MainActivity : AppCompatActivity() {
             })
             return
         }
-        recs.forEachIndexed { index, rec ->
-            val row = LinearLayout(this).apply {
-                orientation = LinearLayout.VERTICAL
-                setPadding(dp(10), dp(8), dp(10), dp(8))
-                setBackgroundColor(if (index == 0) Color.parseColor("#1B2A20") else Color.parseColor("#171B21"))
+
+        // Fixed, game-familiar order rather than HeroRole enum declaration order.
+        val roleOrder = listOf(HeroRole.TANK, HeroRole.FIGHTER, HeroRole.ASSASSIN, HeroRole.MAGE, HeroRole.MARKSMAN, HeroRole.SUPPORT)
+        for (role in roleOrder) {
+            val recs = byRole[role].orEmpty()
+            if (recs.isEmpty()) continue
+
+            recommendationList.addView(TextView(this).apply {
+                text = roleLabel(role)
+                setTextColor(Color.parseColor(ROLE_COLORS[role] ?: "#4C8DFF"))
+                textSize = 12f
+                setTypeface(typeface, Typeface.BOLD)
                 val lp = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-                lp.topMargin = dp(6)
+                lp.topMargin = dp(10)
                 layoutParams = lp
-                setOnClickListener { showHeroActionDialog(rec.hero) }
-            }
-            val headerRow = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL }
-            headerRow.addView(TextView(this).apply {
-                text = "${index + 1}. ${rec.hero.name}"
-                setTextColor(Color.WHITE)
-                textSize = 14f
-                setTypeface(typeface, Typeface.BOLD)
-                layoutParams = LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f)
             })
-            headerRow.addView(TextView(this).apply {
-                text = "${(rec.estimatedWinChance * 100).toInt()}%"
-                setTextColor(accent)
-                textSize = 14f
-                setTypeface(typeface, Typeface.BOLD)
-            })
-            row.addView(headerRow)
-            val roleLine = rec.hero.roles.joinToString(" / ") { it.name.lowercase().replaceFirstChar { c -> c.uppercase() } }
-            val slotNote = if (rec.openEnemySlots > 0) " · ${rec.openEnemySlots} enemy pick(s) still open" else " · enemy team locked"
-            row.addView(TextView(this).apply {
-                text = roleLine + slotNote
-                setTextColor(mutedText)
-                textSize = 11f
-            })
-            if (rec.reasons.isNotEmpty()) {
+
+            recs.forEachIndexed { index, rec ->
+                val row = LinearLayout(this).apply {
+                    orientation = LinearLayout.VERTICAL
+                    setPadding(dp(10), dp(8), dp(10), dp(8))
+                    setBackgroundColor(if (index == 0) Color.parseColor("#1B2A20") else Color.parseColor("#171B21"))
+                    val lp = LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+                    lp.topMargin = dp(4)
+                    layoutParams = lp
+                    setOnClickListener { showHeroActionDialog(rec.hero) }
+                }
+                val headerRow = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL }
+                headerRow.addView(TextView(this).apply {
+                    text = "${index + 1}. ${rec.hero.name}"
+                    setTextColor(Color.WHITE)
+                    textSize = 14f
+                    setTypeface(typeface, Typeface.BOLD)
+                    layoutParams = LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f)
+                })
+                headerRow.addView(TextView(this).apply {
+                    text = "${(rec.estimatedWinChance * 100).toInt()}%"
+                    setTextColor(accent)
+                    textSize = 14f
+                    setTypeface(typeface, Typeface.BOLD)
+                })
+                row.addView(headerRow)
+                val roleLine = rec.hero.roles.joinToString(" / ") { roleLabel(it) }
+                val slotNote = if (rec.openEnemySlots > 0) " · ${rec.openEnemySlots} enemy pick(s) still open" else " · enemy team locked"
                 row.addView(TextView(this).apply {
-                    text = rec.reasons.joinToString(" · ")
+                    text = roleLine + slotNote
                     setTextColor(mutedText)
                     textSize = 11f
-                    setPadding(0, dp(4), 0, 0)
                 })
+                if (rec.reasons.isNotEmpty()) {
+                    row.addView(TextView(this).apply {
+                        text = rec.reasons.joinToString(" · ")
+                        setTextColor(mutedText)
+                        textSize = 11f
+                        setPadding(0, dp(4), 0, 0)
+                    })
+                }
+                recommendationList.addView(row)
             }
-            recommendationList.addView(row)
         }
     }
 }

@@ -41,8 +41,27 @@ class RecommendationEngine(
     private val threatsConsidered: Int = 3
 ) {
 
-    /** Returns available heroes ranked best pick first. */
-    fun recommend(draft: DraftState, limit: Int = 5): List<HeroRecommendation> {
+    /** Returns available heroes ranked best pick first, across all roles. */
+    fun recommend(draft: DraftState, limit: Int = 5): List<HeroRecommendation> =
+        scoreAllAvailable(draft).sortedByDescending { it.estimatedWinChance }.take(limit)
+
+    /**
+     * Returns the best available picks grouped by role, [perRole] each, in a fixed role
+     * order. A hero with two roles (e.g. Edith is Tank/Marksman) can appear once per role
+     * it fills, since "best next pick" means something different depending on which gap
+     * in your comp you're filling — showing it under just one of its roles would hide a
+     * legitimate option from someone scanning the other role's section.
+     */
+    fun recommendByRole(draft: DraftState, perRole: Int = 3): Map<HeroRole, List<HeroRecommendation>> {
+        val scored = scoreAllAvailable(draft)
+        return HeroRole.entries.associateWith { role ->
+            scored.filter { role in it.hero.roles }
+                .sortedByDescending { it.estimatedWinChance }
+                .take(perRole)
+        }
+    }
+
+    private fun scoreAllAvailable(draft: DraftState): List<HeroRecommendation> {
         val allyPicks = draft.lockedAllyPicks()
         val enemyPicks = draft.lockedEnemyPicks()
         val unavailable = draft.bannedHeroIds + draft.allyPicks.filter { it != -1 } + draft.enemyPicks.filter { it != -1 }
@@ -60,8 +79,6 @@ class RecommendationEngine(
             .map { candidate ->
                 score(candidate, draft, allyPicks, enemyPicks, missingCoreRoles, openEnemySlots, stillDraftablePool)
             }
-            .sortedByDescending { it.estimatedWinChance }
-            .take(limit)
     }
 
     private fun score(
@@ -105,6 +122,15 @@ class RecommendationEngine(
         val threatHeroes = threats.mapNotNull { (id, _) -> stats.heroesById[id] }
 
         val reasons = buildList {
+            // Always lead with *why* this hero's baseline is what it is, so the list never
+            // reads as an unexplained flat number — this is the number every other bullet
+            // adjusts up or down from.
+            val basePct = (base * 100).toInt()
+            when {
+                base >= 0.53 -> add("$basePct% base win rate at ${draft.rank.label} — currently a strong pick")
+                base <= 0.47 -> add("$basePct% base win rate at ${draft.rank.label} — currently underperforming")
+                else -> add("$basePct% base win rate at ${draft.rank.label} — roughly average")
+            }
             if (counterAvg > 0.015) add("Favorable matchup vs current enemy picks")
             if (counterAvg < -0.015) add("Slightly unfavorable vs enemy picks — pick with care")
             if (synergyAvg > 0.015) add("Strong synergy with your locked-in allies")
@@ -115,7 +141,6 @@ class RecommendationEngine(
             } else if (openEnemySlots > 0 && threatHeroes.isEmpty()) {
                 add("Low exposure — no strong counters left in the available pool")
             }
-            if (isEmpty()) add("Solid baseline pick for ${draft.rank.label}")
         }
 
         return HeroRecommendation(

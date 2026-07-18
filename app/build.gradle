@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
 }
 
 android {
@@ -45,15 +44,10 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-service:2.8.2'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.2'
 
-    // Room for the local hero / matchup / winrate database
-    implementation 'androidx.room:room-runtime:2.6.1'
-    implementation 'androidx.room:room-ktx:2.6.1'
-    kapt 'androidx.room:room-compiler:2.6.1'
-
-    // JSON parsing for seed data
+    // JSON parsing — used for both the bundled roster/fallback asset and live API responses
     implementation 'com.google.code.gson:gson:2.11.0'
 
-    // Coroutines for capture/analysis pipeline
+    // Coroutines for capture/analysis pipeline and live stats fetching
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1'
 
     // OpenCV — see settings.gradle for how to wire the ":opencv" module in.

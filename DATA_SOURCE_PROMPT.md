@@ -1,25 +1,18 @@
-# Refreshing hero_data.json from MLBB's own data each patch
+# Keeping the roster and offline fallback current
 
-`assets/hero_data.json` is the app's entire "database" — the roster, every matchup
-delta, every synergy delta, and every rank-bracket win rate come from that one file
-(see `SeedDataLoader`). Moonton's official site (`mobilelegends.com`) is a
-JavaScript-rendered marketing site with no public hero API, so there's no single
-URL to scrape for live stats. What *is* reliably scrapable is the **roster itself**
-(names, roles, release order) from the official site's hero pages and the
-community wiki that mirrors it 1:1. Win rates and matchup numbers change every
-patch and aren't published by Moonton at all — those have to come from a stats
-tracker or your own match history, same as the README already says.
+Since the live-data rework, `assets/hero_data.json` is no longer the app's
+"database" — win rates, counters, and synergies are fetched at calculation time
+from the [OpenMLBB API](https://github.com/ridwaanhall/api-mobilelegends) via
+`network/OpenMlbbClient.kt` and `data/StatsRepository.kt`. There's nothing to
+manually refresh each patch for those numbers anymore.
 
-So the practical workflow is two separate refreshes:
+Two things in `hero_data.json` are still worth an occasional touch-up:
 
-## 1. Roster refresh (names, roles, new heroes) — fully automatable
+## 1. Roster (names, roles, new heroes) — still hand-maintained, and still automatable
 
-This repo's current `hero_data.json` (127 heroes) was built by fetching
-**`https://mobile-legends.fandom.com/wiki/List_of_heroes`**, which mirrors the
-official site's hero roster (role, specialty, lane, release date) in one table
-and is far easier to parse than the JS-rendered `mobilelegends.com` pages. Re-run
-this prompt with an AI assistant that has web search/fetch (like this one) once
-a season to pick up new hero releases:
+`iconKey` maps to bundled art under `assets/hero_icons/` that no API can supply,
+so the roster itself stays a local list. Refresh it the same way as before, once
+a season or after a big hero-release wave:
 
 > Fetch `https://mobile-legends.fandom.com/wiki/List_of_heroes` and list every
 > hero currently missing from the attached `hero_data.json` (compare by name).
@@ -31,38 +24,40 @@ a season to pick up new hero releases:
 > used in that block. Output only the new entries as JSON objects matching the
 > existing `heroes` array's shape, ready to append.
 
-Append the result to the `heroes` array in `hero_data.json`. Existing hero ids
-never change, so this never breaks rows already in `matchups`/`synergies`/
-`rankWinRates`.
+A hero missing from the local roster just never shows up as a pickable chip —
+it doesn't affect anyone else's live stats fetch, since those are keyed off the
+OpenMLBB roster, joined to the local one by name at runtime.
 
-## 2. Stats refresh (win rates, matchup/synergy deltas) — needs a stats source
+## 2. Offline fallback snapshot (`matchups`/`synergies`/`rankWinRates`) — safety net only
 
-There's no official numbers feed for this, so pick one:
+`StatsRepository` only ever reads these when a live fetch genuinely fails (no
+network, API down, unexpected response shape) or hasn't completed yet for a
+hero that isn't locked into the draft. Because it's a fallback rather than the
+primary path, it doesn't need per-patch accuracy — "reasonable and not
+embarrassingly stale" is enough. Refresh it with a prompt like:
 
-- **A public stats tracker's hero/matchup pages** (several exist and publish
-  per-patch win rate, pick rate, and counter tables by rank bracket) — fetch the
-  page for each hero you care about and transcribe the numbers.
-- **Your own post-match history**, if the tracker you use exports it.
+> Here's a current MLBB tier list / meta write-up: `<paste or link>`. Update
+> the `rankWinRates` baseline offsets and the `matchups`/`synergies` groups in
+> `gen_data.py`-style curated lists for `hero_data.json`, keeping the existing
+> shape (`heroId`, `versusHeroId`/`withHeroId`, `winRateDelta` as a signed 0–1
+> swing). Only add rows for relationships the source actually supports — leave
+> everything else on the neutral fallback.
 
-Either way, this prompt turns raw numbers into the right JSON shape:
+## Why keep an offline fallback at all, if the data's live now?
 
-> Here are win-rate/matchup numbers for `<hero>` at `<rank>` from `<source>`:
-> `<paste the numbers>`. Convert them into `rankWinRates` rows (`heroId`, `rank`
-> as one of WARRIOR_ELITE / MASTER_GRANDMASTER / EPIC / LEGEND / MYTHIC /
-> MYTHICAL_HONOR_GLORY, `winRate` as a 0–1 fraction) and `matchups` rows
-> (`heroId`, `versusHeroId`, `winRateDelta` as the signed swing in `<hero>`'s
-> favor) using the hero ids in the attached `hero_data.json`. Only emit rows for
-> matchups actually present in the source data — don't invent numbers.
+A live network call can fail mid-draft (bad stadium wifi, the free API rate-
+limiting, a temporary outage) and a counter-pick tool that goes blank at that
+exact moment is worse than useless. `StatsRepository` always has *something* to
+score against — live data when it can get it, this snapshot when it can't —
+so a flaky connection degrades the recommendations' accuracy instead of
+breaking the app.
 
-You don't have to cover every hero — `RecommendationEngine` falls back to a
-neutral 0.50 baseline and zero matchup/synergy delta for anything you haven't
-filled in, so partial data degrades gracefully rather than breaking.
+## Verifying the live endpoints
 
-## Why not fetch mobilelegends.com directly at runtime?
-
-Baking stats into a shipped JSON (rather than having the app call a live API)
-keeps the overlay usable with zero network latency mid-draft, works if MLBB's
-own network traffic is the only thing the phone can reach, and means one bad
-scrape can't silently corrupt recommendations during a ranked match. It costs
-you a manual refresh step each patch — worth it for a tool you're relying on
-in real time.
+`network/OpenMlbbClient.kt` has a comment at the top flagging that its endpoint
+paths/field names came from OpenMLBB's README and SDK method signatures, not a
+directly-fetched OpenAPI schema (that host's `robots.txt` blocks automated
+fetches). If recommendations look stuck on fallback data, check
+`https://mlbb.rone.dev/api/docs` (Swagger UI) against the path constants and
+JSON keys in that file first — that's the most likely place a small mismatch
+would live.
