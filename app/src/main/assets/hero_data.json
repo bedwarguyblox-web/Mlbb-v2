@@ -1079,6 +1079,30 @@
       "roles": [
         "ASSASSIN"
       ]
+    },
+    {
+      "id": 614,
+      "name": "Alucard",
+      "iconKey": "alucard",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 615,
+      "name": "Badang",
+      "iconKey": "badang",
+      "roles": [
+        "FIGHTER"
+      ]
+    },
+    {
+      "id": 616,
+      "name": "Hanzo",
+      "iconKey": "hanzo",
+      "roles": [
+        "ASSASSIN"
+      ]
     }
   ],
   "matchups": [
@@ -2804,3872 +2828,3962 @@
     {
       "heroId": 101,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.547
+      "winRate": 0.477
     },
     {
       "heroId": 101,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.539
+      "winRate": 0.477
     },
     {
       "heroId": 101,
       "rank": "EPIC",
-      "winRate": 0.531
+      "winRate": 0.477
     },
     {
       "heroId": 101,
       "rank": "LEGEND",
-      "winRate": 0.523
+      "winRate": 0.477
     },
     {
       "heroId": 101,
       "rank": "MYTHIC",
-      "winRate": 0.515
+      "winRate": 0.477
     },
     {
       "heroId": 101,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.507
+      "winRate": 0.477
     },
     {
       "heroId": 102,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.535
+      "winRate": 0.4445
     },
     {
       "heroId": 102,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.527
+      "winRate": 0.4445
     },
     {
       "heroId": 102,
       "rank": "EPIC",
-      "winRate": 0.519
+      "winRate": 0.4445
     },
     {
       "heroId": 102,
       "rank": "LEGEND",
-      "winRate": 0.511
+      "winRate": 0.4445
     },
     {
       "heroId": 102,
       "rank": "MYTHIC",
-      "winRate": 0.503
+      "winRate": 0.4445
     },
     {
       "heroId": 102,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.495
+      "winRate": 0.4445
     },
     {
       "heroId": 103,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 103,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 103,
       "rank": "EPIC",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 103,
       "rank": "LEGEND",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 103,
       "rank": "MYTHIC",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 103,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.541
+      "winRate": 0.5254
     },
     {
       "heroId": 104,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 104,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 104,
       "rank": "EPIC",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 104,
       "rank": "LEGEND",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 104,
       "rank": "MYTHIC",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 104,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.475
+      "winRate": 0.5044
     },
     {
       "heroId": 105,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 105,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 105,
       "rank": "EPIC",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 105,
       "rank": "LEGEND",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 105,
       "rank": "MYTHIC",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 105,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.501
+      "winRate": 0.5058
     },
     {
       "heroId": 106,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 106,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 106,
       "rank": "EPIC",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 106,
       "rank": "LEGEND",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 106,
       "rank": "MYTHIC",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 106,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.479
+      "winRate": 0.4688
     },
     {
       "heroId": 107,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 107,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 107,
       "rank": "EPIC",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 107,
       "rank": "LEGEND",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 107,
       "rank": "MYTHIC",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 107,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.486
+      "winRate": 0.4785
     },
     {
       "heroId": 108,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 108,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 108,
       "rank": "EPIC",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 108,
       "rank": "LEGEND",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 108,
       "rank": "MYTHIC",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 108,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.48
+      "winRate": 0.5104
     },
     {
       "heroId": 109,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 109,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 109,
       "rank": "EPIC",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 109,
       "rank": "LEGEND",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 109,
       "rank": "MYTHIC",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 109,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.542
+      "winRate": 0.5277
     },
     {
       "heroId": 110,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 110,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 110,
       "rank": "EPIC",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 110,
       "rank": "LEGEND",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 110,
       "rank": "MYTHIC",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 110,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.514
+      "winRate": 0.5337
     },
     {
       "heroId": 111,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 111,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 111,
       "rank": "EPIC",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 111,
       "rank": "LEGEND",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 111,
       "rank": "MYTHIC",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 111,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.479
+      "winRate": 0.5112
     },
     {
       "heroId": 112,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 112,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 112,
       "rank": "EPIC",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 112,
       "rank": "LEGEND",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 112,
       "rank": "MYTHIC",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 112,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.542
+      "winRate": 0.5143
     },
     {
       "heroId": 113,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 113,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 113,
       "rank": "EPIC",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 113,
       "rank": "LEGEND",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 113,
       "rank": "MYTHIC",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 113,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.476
+      "winRate": 0.4968
     },
     {
       "heroId": 114,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 114,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 114,
       "rank": "EPIC",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 114,
       "rank": "LEGEND",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 114,
       "rank": "MYTHIC",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 114,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.547
+      "winRate": 0.5535
     },
     {
       "heroId": 115,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 115,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 115,
       "rank": "EPIC",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 115,
       "rank": "LEGEND",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 115,
       "rank": "MYTHIC",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 115,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.503
+      "winRate": 0.5126
     },
     {
       "heroId": 116,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 116,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 116,
       "rank": "EPIC",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 116,
       "rank": "LEGEND",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 116,
       "rank": "MYTHIC",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 116,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.533
+      "winRate": 0.5135
     },
     {
       "heroId": 117,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 117,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 117,
       "rank": "EPIC",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 117,
       "rank": "LEGEND",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 117,
       "rank": "MYTHIC",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 117,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.53
+      "winRate": 0.4889
     },
     {
       "heroId": 118,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 118,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 118,
       "rank": "EPIC",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 118,
       "rank": "LEGEND",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 118,
       "rank": "MYTHIC",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 118,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.485
+      "winRate": 0.4875
     },
     {
       "heroId": 119,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.525
+      "winRate": 0.4998
     },
     {
       "heroId": 119,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.517
+      "winRate": 0.4998
     },
     {
       "heroId": 119,
       "rank": "EPIC",
-      "winRate": 0.509
+      "winRate": 0.4998
     },
     {
       "heroId": 119,
       "rank": "LEGEND",
-      "winRate": 0.501
+      "winRate": 0.4998
     },
     {
       "heroId": 119,
       "rank": "MYTHIC",
-      "winRate": 0.493
+      "winRate": 0.4998
     },
     {
       "heroId": 119,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.485
+      "winRate": 0.4998
     },
     {
       "heroId": 120,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 120,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 120,
       "rank": "EPIC",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 120,
       "rank": "LEGEND",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 120,
       "rank": "MYTHIC",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 120,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.497
+      "winRate": 0.5061
     },
     {
       "heroId": 201,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.503
+      "winRate": 0.4344
     },
     {
       "heroId": 201,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.495
+      "winRate": 0.4344
     },
     {
       "heroId": 201,
       "rank": "EPIC",
-      "winRate": 0.487
+      "winRate": 0.4344
     },
     {
       "heroId": 201,
       "rank": "LEGEND",
-      "winRate": 0.479
+      "winRate": 0.4344
     },
     {
       "heroId": 201,
       "rank": "MYTHIC",
-      "winRate": 0.471
+      "winRate": 0.4344
     },
     {
       "heroId": 201,
       "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4344
+    },
+    {
+      "heroId": 202,
+      "rank": "WARRIOR_ELITE",
       "winRate": 0.463
     },
     {
       "heroId": 202,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.494
-    },
-    {
-      "heroId": 202,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.502
+      "winRate": 0.463
     },
     {
       "heroId": 202,
       "rank": "EPIC",
-      "winRate": 0.51
+      "winRate": 0.463
     },
     {
       "heroId": 202,
       "rank": "LEGEND",
-      "winRate": 0.518
+      "winRate": 0.463
     },
     {
       "heroId": 202,
       "rank": "MYTHIC",
-      "winRate": 0.526
+      "winRate": 0.463
     },
     {
       "heroId": 202,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.534
+      "winRate": 0.463
     },
     {
       "heroId": 203,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 203,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 203,
       "rank": "EPIC",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 203,
       "rank": "LEGEND",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 203,
       "rank": "MYTHIC",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 203,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.549
+      "winRate": 0.5201
     },
     {
       "heroId": 204,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 204,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 204,
       "rank": "EPIC",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 204,
       "rank": "LEGEND",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 204,
       "rank": "MYTHIC",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 204,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.528
+      "winRate": 0.4793
     },
     {
       "heroId": 205,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 205,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 205,
       "rank": "EPIC",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 205,
       "rank": "LEGEND",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 205,
       "rank": "MYTHIC",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 205,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.501
+      "winRate": 0.4984
     },
     {
       "heroId": 206,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 206,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 206,
       "rank": "EPIC",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 206,
       "rank": "LEGEND",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 206,
       "rank": "MYTHIC",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 206,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.514
+      "winRate": 0.5159
     },
     {
       "heroId": 207,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 207,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 207,
       "rank": "EPIC",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 207,
       "rank": "LEGEND",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 207,
       "rank": "MYTHIC",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 207,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.52
+      "winRate": 0.4969
     },
     {
       "heroId": 208,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 208,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 208,
       "rank": "EPIC",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 208,
       "rank": "LEGEND",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 208,
       "rank": "MYTHIC",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 208,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.519
+      "winRate": 0.5071
     },
     {
       "heroId": 209,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 209,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 209,
       "rank": "EPIC",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 209,
       "rank": "LEGEND",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 209,
       "rank": "MYTHIC",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 209,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.506
+      "winRate": 0.468
     },
     {
       "heroId": 210,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 210,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 210,
       "rank": "EPIC",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 210,
       "rank": "LEGEND",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 210,
       "rank": "MYTHIC",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 210,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.509
+      "winRate": 0.4729
     },
     {
       "heroId": 211,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.519
+      "winRate": 0.4745
     },
     {
       "heroId": 211,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.511
+      "winRate": 0.4745
     },
     {
       "heroId": 211,
       "rank": "EPIC",
-      "winRate": 0.503
+      "winRate": 0.4745
     },
     {
       "heroId": 211,
       "rank": "LEGEND",
-      "winRate": 0.495
+      "winRate": 0.4745
     },
     {
       "heroId": 211,
       "rank": "MYTHIC",
-      "winRate": 0.487
+      "winRate": 0.4745
     },
     {
       "heroId": 211,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.479
+      "winRate": 0.4745
     },
     {
       "heroId": 212,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.5
+      "winRate": 0.539
     },
     {
       "heroId": 212,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.5
+      "winRate": 0.539
     },
     {
       "heroId": 212,
       "rank": "EPIC",
-      "winRate": 0.5
+      "winRate": 0.539
     },
     {
       "heroId": 212,
       "rank": "LEGEND",
-      "winRate": 0.5
+      "winRate": 0.539
     },
     {
       "heroId": 212,
       "rank": "MYTHIC",
-      "winRate": 0.5
+      "winRate": 0.539
     },
     {
       "heroId": 212,
       "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.539
+    },
+    {
+      "heroId": 213,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 213,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 213,
+      "rank": "EPIC",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 213,
+      "rank": "LEGEND",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 213,
+      "rank": "MYTHIC",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 213,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4728
+    },
+    {
+      "heroId": 214,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 214,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 214,
+      "rank": "EPIC",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 214,
+      "rank": "LEGEND",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 214,
+      "rank": "MYTHIC",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 214,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5258
+    },
+    {
+      "heroId": 215,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 215,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 215,
+      "rank": "EPIC",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 215,
+      "rank": "LEGEND",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 215,
+      "rank": "MYTHIC",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 215,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 216,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 216,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 216,
+      "rank": "EPIC",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 216,
+      "rank": "LEGEND",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 216,
+      "rank": "MYTHIC",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 216,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4754
+    },
+    {
+      "heroId": 217,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 217,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 217,
+      "rank": "EPIC",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 217,
+      "rank": "LEGEND",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 217,
+      "rank": "MYTHIC",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 217,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5245
+    },
+    {
+      "heroId": 218,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 218,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 218,
+      "rank": "EPIC",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 218,
+      "rank": "LEGEND",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 218,
+      "rank": "MYTHIC",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 218,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5286
+    },
+    {
+      "heroId": 219,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 219,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 219,
+      "rank": "EPIC",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 219,
+      "rank": "LEGEND",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 219,
+      "rank": "MYTHIC",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 219,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4792
+    },
+    {
+      "heroId": 220,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 220,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 220,
+      "rank": "EPIC",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 220,
+      "rank": "LEGEND",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 220,
+      "rank": "MYTHIC",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 220,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5271
+    },
+    {
+      "heroId": 221,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 221,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 221,
+      "rank": "EPIC",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 221,
+      "rank": "LEGEND",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 221,
+      "rank": "MYTHIC",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 221,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5183
+    },
+    {
+      "heroId": 222,
+      "rank": "WARRIOR_ELITE",
       "winRate": 0.5
     },
     {
-      "heroId": 213,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 213,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 213,
-      "rank": "EPIC",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 213,
-      "rank": "LEGEND",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 213,
-      "rank": "MYTHIC",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 213,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 214,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 214,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 214,
-      "rank": "EPIC",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 214,
-      "rank": "LEGEND",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 214,
-      "rank": "MYTHIC",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 214,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 215,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 215,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 215,
-      "rank": "EPIC",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 215,
-      "rank": "LEGEND",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 215,
-      "rank": "MYTHIC",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 215,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 216,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 216,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 216,
-      "rank": "EPIC",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 216,
-      "rank": "LEGEND",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 216,
-      "rank": "MYTHIC",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 216,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.477
-    },
-    {
-      "heroId": 217,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 217,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 217,
-      "rank": "EPIC",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 217,
-      "rank": "LEGEND",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 217,
-      "rank": "MYTHIC",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 217,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 218,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 218,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 218,
-      "rank": "EPIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 218,
-      "rank": "LEGEND",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 218,
-      "rank": "MYTHIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 218,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 219,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 219,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 219,
-      "rank": "EPIC",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 219,
-      "rank": "LEGEND",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 219,
-      "rank": "MYTHIC",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 219,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 220,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 220,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 220,
-      "rank": "EPIC",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 220,
-      "rank": "LEGEND",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 220,
-      "rank": "MYTHIC",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 220,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 221,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 221,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 221,
-      "rank": "EPIC",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 221,
-      "rank": "LEGEND",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 221,
-      "rank": "MYTHIC",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 221,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 222,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.502
-    },
-    {
       "heroId": 222,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.502
+      "winRate": 0.5
     },
     {
       "heroId": 222,
       "rank": "EPIC",
-      "winRate": 0.502
+      "winRate": 0.5
     },
     {
       "heroId": 222,
       "rank": "LEGEND",
-      "winRate": 0.502
+      "winRate": 0.5
     },
     {
       "heroId": 222,
       "rank": "MYTHIC",
-      "winRate": 0.502
+      "winRate": 0.5
     },
     {
       "heroId": 222,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.502
+      "winRate": 0.5
     },
     {
       "heroId": 223,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.543
+      "winRate": 0.558
     },
     {
       "heroId": 223,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.543
+      "winRate": 0.558
     },
     {
       "heroId": 223,
       "rank": "EPIC",
-      "winRate": 0.543
+      "winRate": 0.558
     },
     {
       "heroId": 223,
       "rank": "LEGEND",
-      "winRate": 0.543
+      "winRate": 0.558
     },
     {
       "heroId": 223,
-      "rank": "MYTHIC",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 223,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 224,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 224,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 224,
-      "rank": "EPIC",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 224,
-      "rank": "LEGEND",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 224,
-      "rank": "MYTHIC",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 224,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.484
-    },
-    {
-      "heroId": 225,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 225,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 225,
-      "rank": "EPIC",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 225,
-      "rank": "LEGEND",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 225,
-      "rank": "MYTHIC",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 225,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 226,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 226,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 226,
-      "rank": "EPIC",
-      "winRate": 0.504
-    },
-    {
-      "heroId": 226,
-      "rank": "LEGEND",
-      "winRate": 0.496
-    },
-    {
-      "heroId": 226,
-      "rank": "MYTHIC",
-      "winRate": 0.488
-    },
-    {
-      "heroId": 226,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.48
-    },
-    {
-      "heroId": 227,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 227,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 227,
-      "rank": "EPIC",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 227,
-      "rank": "LEGEND",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 227,
-      "rank": "MYTHIC",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 227,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 228,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 228,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 228,
-      "rank": "EPIC",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 228,
-      "rank": "LEGEND",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 228,
-      "rank": "MYTHIC",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 228,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 229,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 229,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 229,
-      "rank": "EPIC",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 229,
-      "rank": "LEGEND",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 229,
-      "rank": "MYTHIC",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 229,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 230,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.495
-    },
-    {
-      "heroId": 230,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 230,
-      "rank": "EPIC",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 230,
-      "rank": "LEGEND",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 230,
-      "rank": "MYTHIC",
-      "winRate": 0.527
-    },
-    {
-      "heroId": 230,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.535
-    },
-    {
-      "heroId": 231,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 231,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 231,
-      "rank": "EPIC",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 231,
-      "rank": "LEGEND",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 231,
-      "rank": "MYTHIC",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 231,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 232,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.528
-    },
-    {
-      "heroId": 232,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.536
-    },
-    {
-      "heroId": 232,
-      "rank": "EPIC",
-      "winRate": 0.544
-    },
-    {
-      "heroId": 232,
-      "rank": "LEGEND",
-      "winRate": 0.552
-    },
-    {
-      "heroId": 232,
-      "rank": "MYTHIC",
-      "winRate": 0.56
-    },
-    {
-      "heroId": 232,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.568
-    },
-    {
-      "heroId": 233,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 233,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 233,
-      "rank": "EPIC",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 233,
-      "rank": "LEGEND",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 233,
-      "rank": "MYTHIC",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 233,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 234,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 234,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 234,
-      "rank": "EPIC",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 234,
-      "rank": "LEGEND",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 234,
-      "rank": "MYTHIC",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 234,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.503
-    },
-    {
-      "heroId": 301,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.513
-    },
-    {
-      "heroId": 301,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 301,
-      "rank": "EPIC",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 301,
-      "rank": "LEGEND",
-      "winRate": 0.537
-    },
-    {
-      "heroId": 301,
-      "rank": "MYTHIC",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 301,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.553
-    },
-    {
-      "heroId": 302,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.526
-    },
-    {
-      "heroId": 302,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 302,
-      "rank": "EPIC",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 302,
-      "rank": "LEGEND",
-      "winRate": 0.55
-    },
-    {
-      "heroId": 302,
       "rank": "MYTHIC",
       "winRate": 0.558
     },
     {
+      "heroId": 223,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.558
+    },
+    {
+      "heroId": 224,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 224,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 224,
+      "rank": "EPIC",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 224,
+      "rank": "LEGEND",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 224,
+      "rank": "MYTHIC",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 224,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5316
+    },
+    {
+      "heroId": 225,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 225,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 225,
+      "rank": "EPIC",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 225,
+      "rank": "LEGEND",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 225,
+      "rank": "MYTHIC",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 225,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4881
+    },
+    {
+      "heroId": 226,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 226,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 226,
+      "rank": "EPIC",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 226,
+      "rank": "LEGEND",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 226,
+      "rank": "MYTHIC",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 226,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5157
+    },
+    {
+      "heroId": 227,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 227,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 227,
+      "rank": "EPIC",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 227,
+      "rank": "LEGEND",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 227,
+      "rank": "MYTHIC",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 227,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5264
+    },
+    {
+      "heroId": 228,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 228,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 228,
+      "rank": "EPIC",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 228,
+      "rank": "LEGEND",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 228,
+      "rank": "MYTHIC",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 228,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5123
+    },
+    {
+      "heroId": 229,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 229,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 229,
+      "rank": "EPIC",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 229,
+      "rank": "LEGEND",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 229,
+      "rank": "MYTHIC",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 229,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5086
+    },
+    {
+      "heroId": 230,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 230,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 230,
+      "rank": "EPIC",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 230,
+      "rank": "LEGEND",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 230,
+      "rank": "MYTHIC",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 230,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4835
+    },
+    {
+      "heroId": 231,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 231,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 231,
+      "rank": "EPIC",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 231,
+      "rank": "LEGEND",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 231,
+      "rank": "MYTHIC",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 231,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4373
+    },
+    {
+      "heroId": 232,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 232,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 232,
+      "rank": "EPIC",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 232,
+      "rank": "LEGEND",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 232,
+      "rank": "MYTHIC",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 232,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4983
+    },
+    {
+      "heroId": 233,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 233,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 233,
+      "rank": "EPIC",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 233,
+      "rank": "LEGEND",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 233,
+      "rank": "MYTHIC",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 233,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4783
+    },
+    {
+      "heroId": 234,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 234,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 234,
+      "rank": "EPIC",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 234,
+      "rank": "LEGEND",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 234,
+      "rank": "MYTHIC",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 234,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5035
+    },
+    {
+      "heroId": 301,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 301,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 301,
+      "rank": "EPIC",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 301,
+      "rank": "LEGEND",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 301,
+      "rank": "MYTHIC",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 301,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4325
+    },
+    {
+      "heroId": 302,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4796
+    },
+    {
+      "heroId": 302,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4796
+    },
+    {
+      "heroId": 302,
+      "rank": "EPIC",
+      "winRate": 0.4796
+    },
+    {
+      "heroId": 302,
+      "rank": "LEGEND",
+      "winRate": 0.4796
+    },
+    {
+      "heroId": 302,
+      "rank": "MYTHIC",
+      "winRate": 0.4796
+    },
+    {
       "heroId": 302,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.566
+      "winRate": 0.4796
     },
     {
       "heroId": 303,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.494
+      "winRate": 0.4925
     },
     {
       "heroId": 303,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.502
+      "winRate": 0.4925
     },
     {
       "heroId": 303,
       "rank": "EPIC",
-      "winRate": 0.51
+      "winRate": 0.4925
     },
     {
       "heroId": 303,
       "rank": "LEGEND",
-      "winRate": 0.518
+      "winRate": 0.4925
     },
     {
       "heroId": 303,
       "rank": "MYTHIC",
-      "winRate": 0.526
+      "winRate": 0.4925
     },
     {
       "heroId": 303,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.534
+      "winRate": 0.4925
     },
     {
       "heroId": 304,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.511
+      "winRate": 0.4534
     },
     {
       "heroId": 304,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.519
+      "winRate": 0.4534
     },
     {
       "heroId": 304,
       "rank": "EPIC",
-      "winRate": 0.527
+      "winRate": 0.4534
     },
     {
       "heroId": 304,
       "rank": "LEGEND",
-      "winRate": 0.535
+      "winRate": 0.4534
     },
     {
       "heroId": 304,
       "rank": "MYTHIC",
-      "winRate": 0.543
+      "winRate": 0.4534
     },
     {
       "heroId": 304,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.551
+      "winRate": 0.4534
     },
     {
       "heroId": 305,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.502
+      "winRate": 0.4293
     },
     {
       "heroId": 305,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.51
+      "winRate": 0.4293
     },
     {
       "heroId": 305,
       "rank": "EPIC",
-      "winRate": 0.518
+      "winRate": 0.4293
     },
     {
       "heroId": 305,
       "rank": "LEGEND",
-      "winRate": 0.526
+      "winRate": 0.4293
     },
     {
       "heroId": 305,
       "rank": "MYTHIC",
-      "winRate": 0.534
+      "winRate": 0.4293
     },
     {
       "heroId": 305,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.542
+      "winRate": 0.4293
     },
     {
       "heroId": 306,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 306,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 306,
+      "rank": "EPIC",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 306,
+      "rank": "LEGEND",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 306,
+      "rank": "MYTHIC",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 306,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4628
+    },
+    {
+      "heroId": 307,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 307,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 307,
+      "rank": "EPIC",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 307,
+      "rank": "LEGEND",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 307,
+      "rank": "MYTHIC",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 307,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4976
+    },
+    {
+      "heroId": 308,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 308,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 308,
+      "rank": "EPIC",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 308,
+      "rank": "LEGEND",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 308,
+      "rank": "MYTHIC",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 308,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 309,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 309,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 309,
+      "rank": "EPIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 309,
+      "rank": "LEGEND",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 309,
+      "rank": "MYTHIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 309,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 310,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 310,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 310,
+      "rank": "EPIC",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 310,
+      "rank": "LEGEND",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 310,
+      "rank": "MYTHIC",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 310,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4787
+    },
+    {
+      "heroId": 311,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 311,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 311,
+      "rank": "EPIC",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 311,
+      "rank": "LEGEND",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 311,
+      "rank": "MYTHIC",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 311,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 312,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 312,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 312,
+      "rank": "EPIC",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 312,
+      "rank": "LEGEND",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 312,
+      "rank": "MYTHIC",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 312,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.512
+    },
+    {
+      "heroId": 313,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 313,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 313,
+      "rank": "EPIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 313,
+      "rank": "LEGEND",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 313,
+      "rank": "MYTHIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 313,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 314,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 314,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 314,
+      "rank": "EPIC",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 314,
+      "rank": "LEGEND",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 314,
+      "rank": "MYTHIC",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 314,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5033
+    },
+    {
+      "heroId": 315,
       "rank": "WARRIOR_ELITE",
       "winRate": 0.484
     },
     {
-      "heroId": 306,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.492
-    },
-    {
-      "heroId": 306,
-      "rank": "EPIC",
-      "winRate": 0.5
-    },
-    {
-      "heroId": 306,
-      "rank": "LEGEND",
-      "winRate": 0.508
-    },
-    {
-      "heroId": 306,
-      "rank": "MYTHIC",
-      "winRate": 0.516
-    },
-    {
-      "heroId": 306,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.524
-    },
-    {
-      "heroId": 307,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.491
-    },
-    {
-      "heroId": 307,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 307,
-      "rank": "EPIC",
-      "winRate": 0.507
-    },
-    {
-      "heroId": 307,
-      "rank": "LEGEND",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 307,
-      "rank": "MYTHIC",
-      "winRate": 0.523
-    },
-    {
-      "heroId": 307,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.531
-    },
-    {
-      "heroId": 308,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 308,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 308,
-      "rank": "EPIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 308,
-      "rank": "LEGEND",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 308,
-      "rank": "MYTHIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 308,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 309,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 309,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 309,
-      "rank": "EPIC",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 309,
-      "rank": "LEGEND",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 309,
-      "rank": "MYTHIC",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 309,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 310,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 310,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.506
-    },
-    {
-      "heroId": 310,
-      "rank": "EPIC",
-      "winRate": 0.514
-    },
-    {
-      "heroId": 310,
-      "rank": "LEGEND",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 310,
-      "rank": "MYTHIC",
-      "winRate": 0.53
-    },
-    {
-      "heroId": 310,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.538
-    },
-    {
-      "heroId": 311,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.489
-    },
-    {
-      "heroId": 311,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 311,
-      "rank": "EPIC",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 311,
-      "rank": "LEGEND",
-      "winRate": 0.513
-    },
-    {
-      "heroId": 311,
-      "rank": "MYTHIC",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 311,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.529
-    },
-    {
-      "heroId": 312,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.478
-    },
-    {
-      "heroId": 312,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.486
-    },
-    {
-      "heroId": 312,
-      "rank": "EPIC",
-      "winRate": 0.494
-    },
-    {
-      "heroId": 312,
-      "rank": "LEGEND",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 312,
-      "rank": "MYTHIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 312,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.518
-    },
-    {
-      "heroId": 313,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 313,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 313,
-      "rank": "EPIC",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 313,
-      "rank": "LEGEND",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 313,
-      "rank": "MYTHIC",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 313,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.54
-    },
-    {
-      "heroId": 314,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.478
-    },
-    {
-      "heroId": 314,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.486
-    },
-    {
-      "heroId": 314,
-      "rank": "EPIC",
-      "winRate": 0.494
-    },
-    {
-      "heroId": 314,
-      "rank": "LEGEND",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 314,
-      "rank": "MYTHIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 314,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.518
-    },
-    {
-      "heroId": 315,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.509
-    },
-    {
       "heroId": 315,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.517
+      "winRate": 0.484
     },
     {
       "heroId": 315,
       "rank": "EPIC",
-      "winRate": 0.525
+      "winRate": 0.484
     },
     {
       "heroId": 315,
-      "rank": "LEGEND",
-      "winRate": 0.533
-    },
-    {
-      "heroId": 315,
-      "rank": "MYTHIC",
-      "winRate": 0.541
-    },
-    {
-      "heroId": 315,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.549
-    },
-    {
-      "heroId": 316,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.527
-    },
-    {
-      "heroId": 316,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.535
-    },
-    {
-      "heroId": 316,
-      "rank": "EPIC",
-      "winRate": 0.543
-    },
-    {
-      "heroId": 316,
-      "rank": "LEGEND",
-      "winRate": 0.551
-    },
-    {
-      "heroId": 316,
-      "rank": "MYTHIC",
-      "winRate": 0.559
-    },
-    {
-      "heroId": 316,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.567
-    },
-    {
-      "heroId": 317,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.478
-    },
-    {
-      "heroId": 317,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.486
-    },
-    {
-      "heroId": 317,
-      "rank": "EPIC",
-      "winRate": 0.494
-    },
-    {
-      "heroId": 317,
-      "rank": "LEGEND",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 317,
-      "rank": "MYTHIC",
-      "winRate": 0.51
-    },
-    {
-      "heroId": 317,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.518
-    },
-    {
-      "heroId": 401,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.491
-    },
-    {
-      "heroId": 401,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 401,
-      "rank": "EPIC",
-      "winRate": 0.507
-    },
-    {
-      "heroId": 401,
-      "rank": "LEGEND",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 401,
-      "rank": "MYTHIC",
-      "winRate": 0.523
-    },
-    {
-      "heroId": 401,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.531
-    },
-    {
-      "heroId": 402,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 402,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 402,
-      "rank": "EPIC",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 402,
-      "rank": "LEGEND",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 402,
-      "rank": "MYTHIC",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 402,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.512
-    },
-    {
-      "heroId": 403,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 403,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 403,
-      "rank": "EPIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 403,
-      "rank": "LEGEND",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 403,
-      "rank": "MYTHIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 403,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 404,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 404,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 404,
-      "rank": "EPIC",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 404,
-      "rank": "LEGEND",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 404,
-      "rank": "MYTHIC",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 404,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 405,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 405,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 405,
-      "rank": "EPIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 405,
-      "rank": "LEGEND",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 405,
-      "rank": "MYTHIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 405,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 406,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 406,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 406,
-      "rank": "EPIC",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 406,
-      "rank": "LEGEND",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 406,
-      "rank": "MYTHIC",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 406,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.532
-    },
-    {
-      "heroId": 407,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 407,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 407,
-      "rank": "EPIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 407,
-      "rank": "LEGEND",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 407,
-      "rank": "MYTHIC",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 407,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 408,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 408,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 408,
-      "rank": "EPIC",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 408,
-      "rank": "LEGEND",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 408,
-      "rank": "MYTHIC",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 408,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.52
-    },
-    {
-      "heroId": 409,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.523
-    },
-    {
-      "heroId": 409,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 409,
-      "rank": "EPIC",
-      "winRate": 0.507
-    },
-    {
-      "heroId": 409,
-      "rank": "LEGEND",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 409,
-      "rank": "MYTHIC",
-      "winRate": 0.491
-    },
-    {
-      "heroId": 409,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.483
-    },
-    {
-      "heroId": 410,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.508
-    },
-    {
-      "heroId": 410,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.5
-    },
-    {
-      "heroId": 410,
-      "rank": "EPIC",
-      "winRate": 0.492
-    },
-    {
-      "heroId": 410,
       "rank": "LEGEND",
       "winRate": 0.484
     },
     {
-      "heroId": 410,
+      "heroId": 315,
       "rank": "MYTHIC",
-      "winRate": 0.476
+      "winRate": 0.484
     },
     {
-      "heroId": 410,
+      "heroId": 315,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.468
+      "winRate": 0.484
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "EPIC",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "LEGEND",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "MYTHIC",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 411,
+      "heroId": 316,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.544
+      "winRate": 0.4704
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "EPIC",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "LEGEND",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "MYTHIC",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 412,
+      "heroId": 317,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.499
+      "winRate": 0.5122
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.537
+      "winRate": 0.5124
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.529
+      "winRate": 0.5124
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "EPIC",
-      "winRate": 0.521
+      "winRate": 0.5124
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "LEGEND",
-      "winRate": 0.513
+      "winRate": 0.5124
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "MYTHIC",
-      "winRate": 0.505
+      "winRate": 0.5124
     },
     {
-      "heroId": 413,
+      "heroId": 401,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.497
+      "winRate": 0.5124
     },
     {
-      "heroId": 414,
+      "heroId": 402,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.498
+      "winRate": 0.5008
     },
     {
-      "heroId": 414,
+      "heroId": 402,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.49
+      "winRate": 0.5008
     },
     {
-      "heroId": 414,
+      "heroId": 402,
       "rank": "EPIC",
-      "winRate": 0.482
+      "winRate": 0.5008
     },
     {
-      "heroId": 414,
+      "heroId": 402,
+      "rank": "LEGEND",
+      "winRate": 0.5008
+    },
+    {
+      "heroId": 402,
+      "rank": "MYTHIC",
+      "winRate": 0.5008
+    },
+    {
+      "heroId": 402,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5008
+    },
+    {
+      "heroId": 403,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 403,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 403,
+      "rank": "EPIC",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 403,
+      "rank": "LEGEND",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 403,
+      "rank": "MYTHIC",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 403,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4816
+    },
+    {
+      "heroId": 404,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.474
+    },
+    {
+      "heroId": 404,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.474
+    },
+    {
+      "heroId": 404,
+      "rank": "EPIC",
+      "winRate": 0.474
+    },
+    {
+      "heroId": 404,
       "rank": "LEGEND",
       "winRate": 0.474
     },
     {
-      "heroId": 414,
-      "rank": "MYTHIC",
-      "winRate": 0.466
-    },
-    {
-      "heroId": 414,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.458
-    },
-    {
-      "heroId": 415,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.521
-    },
-    {
-      "heroId": 415,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.513
-    },
-    {
-      "heroId": 415,
-      "rank": "EPIC",
-      "winRate": 0.505
-    },
-    {
-      "heroId": 415,
-      "rank": "LEGEND",
-      "winRate": 0.497
-    },
-    {
-      "heroId": 415,
-      "rank": "MYTHIC",
-      "winRate": 0.489
-    },
-    {
-      "heroId": 415,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 416,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 416,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 416,
-      "rank": "EPIC",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 416,
-      "rank": "LEGEND",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 416,
-      "rank": "MYTHIC",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 416,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 417,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 417,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 417,
-      "rank": "EPIC",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 417,
-      "rank": "LEGEND",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 417,
-      "rank": "MYTHIC",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 417,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.515
-    },
-    {
-      "heroId": 418,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 418,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 418,
-      "rank": "EPIC",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 418,
-      "rank": "LEGEND",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 418,
-      "rank": "MYTHIC",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 418,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.481
-    },
-    {
-      "heroId": 419,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 419,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 419,
-      "rank": "EPIC",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 419,
-      "rank": "LEGEND",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 419,
-      "rank": "MYTHIC",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 419,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.519
-    },
-    {
-      "heroId": 420,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 420,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 420,
-      "rank": "EPIC",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 420,
-      "rank": "LEGEND",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 420,
-      "rank": "MYTHIC",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 420,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.522
-    },
-    {
-      "heroId": 421,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 421,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 421,
-      "rank": "EPIC",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 421,
-      "rank": "LEGEND",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 421,
-      "rank": "MYTHIC",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 421,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.502
-    },
-    {
-      "heroId": 422,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 422,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 422,
-      "rank": "EPIC",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 422,
-      "rank": "LEGEND",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 422,
-      "rank": "MYTHIC",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 422,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.542
-    },
-    {
-      "heroId": 423,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 423,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 423,
-      "rank": "EPIC",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 423,
-      "rank": "LEGEND",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 423,
-      "rank": "MYTHIC",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 423,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.511
-    },
-    {
-      "heroId": 424,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 424,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 424,
-      "rank": "EPIC",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 424,
-      "rank": "LEGEND",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 424,
-      "rank": "MYTHIC",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 424,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.534
-    },
-    {
-      "heroId": 425,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 425,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 425,
-      "rank": "EPIC",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 425,
-      "rank": "LEGEND",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 425,
-      "rank": "MYTHIC",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 425,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.548
-    },
-    {
-      "heroId": 426,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 426,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 426,
-      "rank": "EPIC",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 426,
-      "rank": "LEGEND",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 426,
-      "rank": "MYTHIC",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 426,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.499
-    },
-    {
-      "heroId": 427,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 427,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 427,
-      "rank": "EPIC",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 427,
-      "rank": "LEGEND",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 427,
-      "rank": "MYTHIC",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 427,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 501,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 501,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 501,
-      "rank": "EPIC",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 501,
-      "rank": "LEGEND",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 501,
-      "rank": "MYTHIC",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 501,
-      "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.545
-    },
-    {
-      "heroId": 502,
-      "rank": "WARRIOR_ELITE",
-      "winRate": 0.506
-    },
-    {
-      "heroId": 502,
-      "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.498
-    },
-    {
-      "heroId": 502,
-      "rank": "EPIC",
-      "winRate": 0.49
-    },
-    {
-      "heroId": 502,
-      "rank": "LEGEND",
-      "winRate": 0.482
-    },
-    {
-      "heroId": 502,
+      "heroId": 404,
       "rank": "MYTHIC",
       "winRate": 0.474
     },
     {
+      "heroId": 404,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.474
+    },
+    {
+      "heroId": 405,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 405,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 405,
+      "rank": "EPIC",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 405,
+      "rank": "LEGEND",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 405,
+      "rank": "MYTHIC",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 405,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4877
+    },
+    {
+      "heroId": 406,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 406,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 406,
+      "rank": "EPIC",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 406,
+      "rank": "LEGEND",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 406,
+      "rank": "MYTHIC",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 406,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.428
+    },
+    {
+      "heroId": 407,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 407,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 407,
+      "rank": "EPIC",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 407,
+      "rank": "LEGEND",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 407,
+      "rank": "MYTHIC",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 407,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4805
+    },
+    {
+      "heroId": 408,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 408,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 408,
+      "rank": "EPIC",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 408,
+      "rank": "LEGEND",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 408,
+      "rank": "MYTHIC",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 408,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4934
+    },
+    {
+      "heroId": 409,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 409,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 409,
+      "rank": "EPIC",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 409,
+      "rank": "LEGEND",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 409,
+      "rank": "MYTHIC",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 409,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4821
+    },
+    {
+      "heroId": 410,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 410,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 410,
+      "rank": "EPIC",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 410,
+      "rank": "LEGEND",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 410,
+      "rank": "MYTHIC",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 410,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4886
+    },
+    {
+      "heroId": 411,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 411,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 411,
+      "rank": "EPIC",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 411,
+      "rank": "LEGEND",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 411,
+      "rank": "MYTHIC",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 411,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5539
+    },
+    {
+      "heroId": 412,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 412,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 412,
+      "rank": "EPIC",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 412,
+      "rank": "LEGEND",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 412,
+      "rank": "MYTHIC",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 412,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4769
+    },
+    {
+      "heroId": 413,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 413,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 413,
+      "rank": "EPIC",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 413,
+      "rank": "LEGEND",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 413,
+      "rank": "MYTHIC",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 413,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5088
+    },
+    {
+      "heroId": 414,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 414,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 414,
+      "rank": "EPIC",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 414,
+      "rank": "LEGEND",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 414,
+      "rank": "MYTHIC",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 414,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5151
+    },
+    {
+      "heroId": 415,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 415,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 415,
+      "rank": "EPIC",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 415,
+      "rank": "LEGEND",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 415,
+      "rank": "MYTHIC",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 415,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5093
+    },
+    {
+      "heroId": 416,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 416,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 416,
+      "rank": "EPIC",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 416,
+      "rank": "LEGEND",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 416,
+      "rank": "MYTHIC",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 416,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5171
+    },
+    {
+      "heroId": 417,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 417,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 417,
+      "rank": "EPIC",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 417,
+      "rank": "LEGEND",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 417,
+      "rank": "MYTHIC",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 417,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5297
+    },
+    {
+      "heroId": 418,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 418,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 418,
+      "rank": "EPIC",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 418,
+      "rank": "LEGEND",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 418,
+      "rank": "MYTHIC",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 418,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5076
+    },
+    {
+      "heroId": 419,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 419,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 419,
+      "rank": "EPIC",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 419,
+      "rank": "LEGEND",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 419,
+      "rank": "MYTHIC",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 419,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4837
+    },
+    {
+      "heroId": 420,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 420,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 420,
+      "rank": "EPIC",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 420,
+      "rank": "LEGEND",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 420,
+      "rank": "MYTHIC",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 420,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4862
+    },
+    {
+      "heroId": 421,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 421,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 421,
+      "rank": "EPIC",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 421,
+      "rank": "LEGEND",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 421,
+      "rank": "MYTHIC",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 421,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4654
+    },
+    {
+      "heroId": 422,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 422,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 422,
+      "rank": "EPIC",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 422,
+      "rank": "LEGEND",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 422,
+      "rank": "MYTHIC",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 422,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5148
+    },
+    {
+      "heroId": 423,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 423,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 423,
+      "rank": "EPIC",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 423,
+      "rank": "LEGEND",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 423,
+      "rank": "MYTHIC",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 423,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4974
+    },
+    {
+      "heroId": 424,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 424,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 424,
+      "rank": "EPIC",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 424,
+      "rank": "LEGEND",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 424,
+      "rank": "MYTHIC",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 424,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4706
+    },
+    {
+      "heroId": 425,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 425,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 425,
+      "rank": "EPIC",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 425,
+      "rank": "LEGEND",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 425,
+      "rank": "MYTHIC",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 425,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5128
+    },
+    {
+      "heroId": 426,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 426,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 426,
+      "rank": "EPIC",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 426,
+      "rank": "LEGEND",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 426,
+      "rank": "MYTHIC",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 426,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5143
+    },
+    {
+      "heroId": 427,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 427,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 427,
+      "rank": "EPIC",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 427,
+      "rank": "LEGEND",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 427,
+      "rank": "MYTHIC",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 427,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4985
+    },
+    {
+      "heroId": 501,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 501,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 501,
+      "rank": "EPIC",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 501,
+      "rank": "LEGEND",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 501,
+      "rank": "MYTHIC",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 501,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.47
+    },
+    {
+      "heroId": 502,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4833
+    },
+    {
+      "heroId": 502,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4833
+    },
+    {
+      "heroId": 502,
+      "rank": "EPIC",
+      "winRate": 0.4833
+    },
+    {
+      "heroId": 502,
+      "rank": "LEGEND",
+      "winRate": 0.4833
+    },
+    {
+      "heroId": 502,
+      "rank": "MYTHIC",
+      "winRate": 0.4833
+    },
+    {
       "heroId": 502,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.466
+      "winRate": 0.4833
     },
     {
       "heroId": 503,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.508
+      "winRate": 0.517
     },
     {
       "heroId": 503,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.5
+      "winRate": 0.517
     },
     {
       "heroId": 503,
       "rank": "EPIC",
-      "winRate": 0.492
+      "winRate": 0.517
     },
     {
       "heroId": 503,
       "rank": "LEGEND",
-      "winRate": 0.484
+      "winRate": 0.517
     },
     {
       "heroId": 503,
       "rank": "MYTHIC",
-      "winRate": 0.476
+      "winRate": 0.517
     },
     {
       "heroId": 503,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.468
+      "winRate": 0.517
     },
     {
       "heroId": 504,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 504,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 504,
       "rank": "EPIC",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 504,
       "rank": "LEGEND",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 504,
       "rank": "MYTHIC",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 504,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.503
+      "winRate": 0.4775
     },
     {
       "heroId": 505,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 505,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 505,
       "rank": "EPIC",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 505,
       "rank": "LEGEND",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 505,
       "rank": "MYTHIC",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 505,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.506
+      "winRate": 0.5024
     },
     {
       "heroId": 506,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 506,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 506,
       "rank": "EPIC",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 506,
       "rank": "LEGEND",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 506,
       "rank": "MYTHIC",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 506,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.509
+      "winRate": 0.4278
     },
     {
       "heroId": 507,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 507,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 507,
       "rank": "EPIC",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 507,
       "rank": "LEGEND",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 507,
       "rank": "MYTHIC",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 507,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.52
+      "winRate": 0.4815
     },
     {
       "heroId": 508,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 508,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 508,
       "rank": "EPIC",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 508,
       "rank": "LEGEND",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 508,
       "rank": "MYTHIC",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 508,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.548
+      "winRate": 0.5034
     },
     {
       "heroId": 509,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 509,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 509,
       "rank": "EPIC",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 509,
       "rank": "LEGEND",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 509,
       "rank": "MYTHIC",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 509,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.53
+      "winRate": 0.5015
     },
     {
       "heroId": 510,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 510,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 510,
       "rank": "EPIC",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 510,
       "rank": "LEGEND",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 510,
       "rank": "MYTHIC",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 510,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.516
+      "winRate": 0.4931
     },
     {
       "heroId": 511,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.541
+      "winRate": 0.4983
     },
     {
       "heroId": 511,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.533
+      "winRate": 0.4983
     },
     {
       "heroId": 511,
       "rank": "EPIC",
-      "winRate": 0.525
+      "winRate": 0.4983
     },
     {
       "heroId": 511,
       "rank": "LEGEND",
-      "winRate": 0.517
+      "winRate": 0.4983
     },
     {
       "heroId": 511,
       "rank": "MYTHIC",
-      "winRate": 0.509
+      "winRate": 0.4983
     },
     {
       "heroId": 511,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.501
+      "winRate": 0.4983
     },
     {
       "heroId": 512,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 512,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 512,
       "rank": "EPIC",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 512,
       "rank": "LEGEND",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 512,
       "rank": "MYTHIC",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 512,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.494
+      "winRate": 0.5122
     },
     {
       "heroId": 513,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 513,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 513,
       "rank": "EPIC",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 513,
       "rank": "LEGEND",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 513,
       "rank": "MYTHIC",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 513,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.545
+      "winRate": 0.547
     },
     {
       "heroId": 514,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 514,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 514,
       "rank": "EPIC",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 514,
       "rank": "LEGEND",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 514,
       "rank": "MYTHIC",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 514,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.505
+      "winRate": 0.4662
     },
     {
       "heroId": 515,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 515,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 515,
       "rank": "EPIC",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 515,
       "rank": "LEGEND",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 515,
       "rank": "MYTHIC",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 515,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.522
+      "winRate": 0.5077
     },
     {
       "heroId": 516,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 516,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 516,
       "rank": "EPIC",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 516,
       "rank": "LEGEND",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 516,
       "rank": "MYTHIC",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 516,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.51
+      "winRate": 0.5294
     },
     {
       "heroId": 517,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 517,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 517,
       "rank": "EPIC",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 517,
       "rank": "LEGEND",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 517,
       "rank": "MYTHIC",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 517,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.52
+      "winRate": 0.506
     },
     {
       "heroId": 518,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 518,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 518,
       "rank": "EPIC",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 518,
       "rank": "LEGEND",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 518,
       "rank": "MYTHIC",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 518,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.547
+      "winRate": 0.5156
     },
     {
       "heroId": 519,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 519,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 519,
       "rank": "EPIC",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 519,
       "rank": "LEGEND",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 519,
       "rank": "MYTHIC",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 519,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.524
+      "winRate": 0.502
     },
     {
       "heroId": 601,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 601,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 601,
       "rank": "EPIC",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 601,
       "rank": "LEGEND",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 601,
       "rank": "MYTHIC",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 601,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.516
+      "winRate": 0.5474
     },
     {
       "heroId": 602,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 602,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 602,
       "rank": "EPIC",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 602,
       "rank": "LEGEND",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 602,
       "rank": "MYTHIC",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 602,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.512
+      "winRate": 0.5234
     },
     {
       "heroId": 603,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 603,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 603,
       "rank": "EPIC",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 603,
       "rank": "LEGEND",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 603,
       "rank": "MYTHIC",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 603,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.544
+      "winRate": 0.5162
     },
     {
       "heroId": 604,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 604,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 604,
       "rank": "EPIC",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 604,
       "rank": "LEGEND",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 604,
       "rank": "MYTHIC",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 604,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.527
+      "winRate": 0.4902
     },
     {
       "heroId": 605,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 605,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 605,
       "rank": "EPIC",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 605,
       "rank": "LEGEND",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 605,
       "rank": "MYTHIC",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 605,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.511
+      "winRate": 0.5432
     },
     {
       "heroId": 606,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 606,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 606,
       "rank": "EPIC",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 606,
       "rank": "LEGEND",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 606,
       "rank": "MYTHIC",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 606,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.53
+      "winRate": 0.4331
     },
     {
       "heroId": 607,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 607,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 607,
       "rank": "EPIC",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 607,
       "rank": "LEGEND",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 607,
       "rank": "MYTHIC",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 607,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.55
+      "winRate": 0.5325
     },
     {
       "heroId": 608,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 608,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 608,
       "rank": "EPIC",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 608,
       "rank": "LEGEND",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 608,
       "rank": "MYTHIC",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 608,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.517
+      "winRate": 0.5106
     },
     {
       "heroId": 609,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 609,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 609,
       "rank": "EPIC",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 609,
       "rank": "LEGEND",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 609,
       "rank": "MYTHIC",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 609,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.515
+      "winRate": 0.5399
     },
     {
       "heroId": 610,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 610,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 610,
       "rank": "EPIC",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 610,
       "rank": "LEGEND",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 610,
       "rank": "MYTHIC",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 610,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.506
+      "winRate": 0.4582
     },
     {
       "heroId": 611,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.535
+      "winRate": 0.5527
     },
     {
       "heroId": 611,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.528
+      "winRate": 0.5527
     },
     {
       "heroId": 611,
       "rank": "EPIC",
-      "winRate": 0.521
+      "winRate": 0.5527
     },
     {
       "heroId": 611,
       "rank": "LEGEND",
-      "winRate": 0.515
+      "winRate": 0.5527
     },
     {
       "heroId": 611,
       "rank": "MYTHIC",
-      "winRate": 0.51
+      "winRate": 0.5527
     },
     {
       "heroId": 611,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.505
+      "winRate": 0.5527
     },
     {
       "heroId": 612,
       "rank": "WARRIOR_ELITE",
-      "winRate": 0.528
+      "winRate": 0.4833
     },
     {
       "heroId": 612,
       "rank": "MASTER_GRANDMASTER",
-      "winRate": 0.523
+      "winRate": 0.4833
     },
     {
       "heroId": 612,
       "rank": "EPIC",
-      "winRate": 0.519
+      "winRate": 0.4833
     },
     {
       "heroId": 612,
       "rank": "LEGEND",
-      "winRate": 0.516
+      "winRate": 0.4833
     },
     {
       "heroId": 612,
       "rank": "MYTHIC",
-      "winRate": 0.513
+      "winRate": 0.4833
     },
     {
       "heroId": 612,
       "rank": "MYTHICAL_HONOR_GLORY",
-      "winRate": 0.51
+      "winRate": 0.4833
+    },
+    {
+      "heroId": 614,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 614,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 614,
+      "rank": "EPIC",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 614,
+      "rank": "LEGEND",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 614,
+      "rank": "MYTHIC",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 614,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.4995
+    },
+    {
+      "heroId": 615,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 615,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 615,
+      "rank": "EPIC",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 615,
+      "rank": "LEGEND",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 615,
+      "rank": "MYTHIC",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 615,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5052
+    },
+    {
+      "heroId": 616,
+      "rank": "WARRIOR_ELITE",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 616,
+      "rank": "MASTER_GRANDMASTER",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 616,
+      "rank": "EPIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 616,
+      "rank": "LEGEND",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 616,
+      "rank": "MYTHIC",
+      "winRate": 0.5029
+    },
+    {
+      "heroId": 616,
+      "rank": "MYTHICAL_HONOR_GLORY",
+      "winRate": 0.5029
     },
     {
       "heroId": 613,

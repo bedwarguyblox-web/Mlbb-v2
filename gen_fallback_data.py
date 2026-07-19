@@ -1,15 +1,31 @@
 import json, hashlib
 
-# NOTE (2026-07-18): hero_data_orig.json used below predates several real heroes —
-# confirmed missing: Marcel (#132, Support/Tank, released Mar 2026), Sora (Fighter/
-# Assassin, released ~Jan 2026), Hirara (#133, Assassin, released Jun 2026 — the
-# current newest hero as of this note). Those three were patched directly into the
-# *compiled* app/src/main/assets/hero_data.json (roster entries + hand-estimated
-# rankWinRates only — no matchup/synergy data yet, so they sit at neutral 0.0 delta
-# until live API data covers them). Re-running this script regenerates hero_data.json
-# from hero_data_orig.json from scratch and will silently drop all three again unless
-# hero_data_orig.json is updated first to include them. Check for a newer roster
-# snapshot, or add them to hero_data_orig.json's `heroes` list before regenerating.
+# NOTE (2026-07-18): hero_data_orig.json used below predates several real heroes and
+# is also just missing a few established ones outright — confirmed missing: Marcel
+# (#132, Support/Tank, released Mar 2026), Sora (Fighter/Assassin, released ~Jan 2026),
+# Hirara (#133, Assassin, released Jun 2026), Alucard (Fighter, one of the original
+# launch heroes), Badang (Fighter), Hanzo (Assassin). All six were patched directly
+# into the *compiled* app/src/main/assets/hero_data.json's `heroes` array. Re-running
+# this script regenerates hero_data.json from hero_data_orig.json from scratch and
+# will silently drop all six again unless hero_data_orig.json is updated first to
+# include them.
+#
+# NOTE (2026-07-19): app/src/main/assets/hero_data.json's `rankWinRates` was rebuilt
+# from real data, not this script's estimates below. Source: https://github.com/
+# Pren7/MLBB-Winrate (raw file: raw.githubusercontent.com/Pren7/MLBB-Winrate/refs/
+# heads/main/winrate.json) — scraped directly from Moonton's own official site
+# (m.mobilelegends.com/rank), auto-refreshed daily via that repo's own GitHub Actions
+# cron job. Covers 132 of 133 heroes (only Hirara has no live number yet — too new for
+# ranked stats to exist). One important limitation: that source only publishes a
+# single "All Rank, past 1 day" win rate per hero, not a per-rank-tier breakdown — so
+# the compiled JSON currently applies that same number identically across all 6
+# RankTier entries per hero, rather than genuinely different numbers per rank. This
+# script's tier-list-based estimation logic below is now stale for `rankWinRates`
+# specifically (kept for reference / as a fallback method) — if you re-run this
+# script, re-pull the live file above afterward and re-apply it the same way, or the
+# compiled JSON will regress back to guesses. `matchups` and `synergies` (counters/
+# synergy deltas) are NOT covered by that source and still come from this script's
+# original hand-curated tier-list estimates below — that part hasn't changed.
 
 d = json.load(open('hero_data_orig.json'))
 heroes = d['heroes']  # keep as-is, id/name/iconKey/roles untouched
@@ -23,6 +39,7 @@ RANKS = ["WARRIOR_ELITE", "MASTER_GRANDMASTER", "EPIC", "LEGEND", "MYTHIC", "MYT
 # 1) Baseline win-rate tiering, grounded in GameMarket.gg's Patch 2.1.90
 #    (July 2026) meta tier list -- https://gamemarket.gg/news/mobile-legends-bang-bang/
 #    best-mlbb-heroes-july-2026-patch-2-1-90-meta-tier-list -- plus long-running,
+
 #    multi-source-corroborated MLBB community consensus (esports.gg, mlbbhub.com,
 #    frvr.com tier lists cross-checked June-July 2026) for heroes that article
 #    didn't call out directly. Heroes with no specific current-patch signal keep a
