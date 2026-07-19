@@ -44,6 +44,7 @@ import com.google.android.material.button.MaterialButton
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 /**
@@ -80,6 +81,12 @@ class MainActivity : AppCompatActivity() {
     // ---- data ----
     private var statsRepository: StatsRepository? = null
     private var recommendationEngine: RecommendationEngine? = null
+    // Tracks the current background live-refresh so a new draft change can cancel it. Without
+    // this, picking two heroes quickly launches two overlapping coroutines, and if the first
+    // one's network call happens to finish after the second one's, it re-renders the screen
+    // with recommendations computed from the OLD lineup — the exact "picks aren't updating
+    // it" bug this guards against.
+    private var liveRefreshJob: Job? = null
     private val favoriteHeroIds = mutableSetOf<Int>()
 
     // ---- manual draft state ----
@@ -560,9 +567,23 @@ class MainActivity : AppCompatActivity() {
         // re-render if it changed anything. This is what makes "every calculation" live
         // without every tap feeling laggy on a slow connection.
         renderRecommendationsByRole(engine.recommendByRole(draft, perRole = 3), repo.freshness)
-        lifecycleScope.launch {
+
+        // Cancel any still-running refresh from a previous pick — otherwise a slow network
+        // call from an earlier lineup can complete after this one and overwrite the screen
+        // with stale recommendations.
+        liveRefreshJob?.cancel()
+        liveRefreshJob = lifecycleScope.launch {
             repo.refreshLive(manualRank, allyPicks, enemyPicks)
-            renderRecommendationsByRole(engine.recommendByRole(draft, perRole = 3), repo.freshness)
+            // Rebuild from the CURRENT picks rather than reusing the `draft` snapshot above —
+            // even with the cancellation just above, re-reading here is a cheap second guard
+            // against ever rendering a lineup that's no longer what's on screen.
+            val current = DraftState(
+                rank = manualRank,
+                allyPicks = allyPicks.toList(),
+                enemyPicks = enemyPicks.toList(),
+                bannedHeroIds = bannedHeroIds.toSet()
+            )
+            renderRecommendationsByRole(engine.recommendByRole(current, perRole = 3), repo.freshness)
         }
     }
 
